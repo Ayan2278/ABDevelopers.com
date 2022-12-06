@@ -1,0 +1,68 @@
+.mrg{
+    margin-left: 20px;
+}
+.cent{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.fontss{
+    font-size: 29px;
+    margin-top: 10px;
+}
+.bod:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.containe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.flex{
+    display: flex;
+    width: 30px;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+.centee{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.med{
+    flex-direction: row;
+    width: 50%;
+}
+.cards{
+    width: 300px;
+}
+.set{
+    width: 300px;
+    margin-top: 60px;
+    
+}
+.dif
+{
+    width: 55%; margin: 0px auto ;margin-left: 40px;
+}
+@media only screen and (max-width: 1400px) {
+    .med{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .dif{
+        width: 100%;
+        margin: 0;
+    }
+    
+    img{
+        width: 90%;
+    }
+}
